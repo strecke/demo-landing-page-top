@@ -157,9 +157,45 @@ body {
     text-align: right;
 }
 
-.footer p {
+.action {
+    padding: 100px 200px;
+}
+
+.action .box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    padding: 50px 20px;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action .box h3 {
+    font-size: 22px;
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.action .box p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.action .box button {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 32px;
+    font-weight: 900;
+}
+
+.footer {
     background-color: #1F2937;
     color: #E5E7EB;
     text-align: center;
-    padding: 22px 0;
+    padding: 26px 0;
 }
