@@ -88,7 +88,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 200px;
+    padding: 60px 200px 150px;
     gap: 50px;
     color: black;
 }
@@ -129,6 +129,32 @@ body {
     font-size: 18px;
     text-align: center;
     color: gray;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    gap: 10px;
+    align-items: center;
+}
+
+.quote .text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 780px;
+}
+
+.quote .src {
+    color: #1F2937;
+    font-size: 26px;
+    font-weight: 900;
+    max-width: 700px;
+    width: 100%;
+    text-align: right;
 }
 
 .footer p {
